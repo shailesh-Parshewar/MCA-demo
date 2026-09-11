@@ -36,3 +36,11 @@
 
 
 # Example 6 : Write a program to swap two variables without a third variable, using arithmetic operations.
+a = int(input("a : "))
+b = int(input(" b : "))
+a = a + b  # total (old a + old b)
+b = a - b  # total - old b = old a
+a = a - b  # total - new b(old a) = b
+print("swap")
+print("a : ", a)
+print("b : ", b)
