@@ -19,27 +19,6 @@ match n:
         print("Invalid choice")
 
 
-# Example 9 : create a simple calculator
-op = input("enter an operation to perform(+,-,*,/) : ")
-a = float(input("enter number a : "))
-b = float(input("enter number a : "))
-
-match op:
-    case "+":
-        print("a plus b : ", a + b)
-    case "-":
-        print("a minus b : ", a - b)
-    case "*":
-        print("a multiplied by b : ", a * b)
-    case "/":
-        if b == 0:
-            print("error : division by zero")
-        else:
-            print("a divided by b : ", a / b)
-    case "%":
-        print("remainder of a divided by b : ", a % b)
-    case _:
-        print("invalid op")
 
 # Example 10 : Traffic signal
  a = input("Enter a signal(Red, Yellow, Green) : ")
